@@ -58,7 +58,6 @@ return require('packer').startup(function(use)
   }
   use{"nvim-neorg/neorg",
     config = function()
-        run = ":Neorg sync-parsers", -- This is the important bit!
         require('neorg').setup {
             load = {
                 ["core.defaults"] = {}, -- Loads default behaviour
