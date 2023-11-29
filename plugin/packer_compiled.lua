@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/du/.cache/nvim/packer_hererocks/2.1.1697887905/share/lua/5.1/?.lua;/home/du/.cache/nvim/packer_hererocks/2.1.1697887905/share/lua/5.1/?/init.lua;/home/du/.cache/nvim/packer_hererocks/2.1.1697887905/lib/luarocks/rocks-5.1/?.lua;/home/du/.cache/nvim/packer_hererocks/2.1.1697887905/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/du/.cache/nvim/packer_hererocks/2.1.1697887905/lib/lua/5.1/?.so"
+local package_path_str = "/home/du/.cache/nvim/packer_hererocks/2.1.1700008891/share/lua/5.1/?.lua;/home/du/.cache/nvim/packer_hererocks/2.1.1700008891/share/lua/5.1/?/init.lua;/home/du/.cache/nvim/packer_hererocks/2.1.1700008891/lib/luarocks/rocks-5.1/?.lua;/home/du/.cache/nvim/packer_hererocks/2.1.1700008891/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/du/.cache/nvim/packer_hererocks/2.1.1700008891/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -145,7 +145,7 @@ _G.packer_plugins = {
     url = "https://github.com/williamboman/mason.nvim"
   },
   neorg = {
-    config = { "\27LJ\2\n†\2\0\0\b\0\16\0\21'\0\0\0006\1\1\0'\3\2\0B\1\2\0029\1\3\0015\3\r\0005\4\4\0004\5\0\0=\5\5\0044\5\0\0=\5\6\0045\5\n\0005\6\b\0005\a\a\0=\a\t\6=\6\v\5=\5\f\4=\4\14\3B\1\2\0017\0\15\0K\0\1\0\brun\tload\1\0\0\16core.dirman\vconfig\1\0\0\15workspaces\1\0\1\22default_workspace\nnotes\1\0\1\nnotes\22~/Documents/notes\19core.concealer\18core.defaults\1\0\0\nsetup\nneorg\frequire\24:Neorg sync-parsers\0" },
+    config = { "\27LJ\2\næ\1\0\0\a\0\14\0\0196\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\f\0005\3\3\0004\4\0\0=\4\4\0034\4\0\0=\4\5\0035\4\t\0005\5\a\0005\6\6\0=\6\b\5=\5\n\4=\4\v\3=\3\r\2B\0\2\1K\0\1\0\tload\1\0\0\16core.dirman\vconfig\1\0\0\15workspaces\1\0\1\22default_workspace\nnotes\1\0\1\nnotes\22~/Documents/notes\19core.concealer\18core.defaults\1\0\0\nsetup\nneorg\frequire\0" },
     loaded = true,
     path = "/home/du/.local/share/nvim/site/pack/packer/start/neorg",
     url = "https://github.com/nvim-neorg/neorg"
@@ -216,7 +216,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: neorg
 time([[Config for neorg]], true)
-try_loadstring("\27LJ\2\n†\2\0\0\b\0\16\0\21'\0\0\0006\1\1\0'\3\2\0B\1\2\0029\1\3\0015\3\r\0005\4\4\0004\5\0\0=\5\5\0044\5\0\0=\5\6\0045\5\n\0005\6\b\0005\a\a\0=\a\t\6=\6\v\5=\5\f\4=\4\14\3B\1\2\0017\0\15\0K\0\1\0\brun\tload\1\0\0\16core.dirman\vconfig\1\0\0\15workspaces\1\0\1\22default_workspace\nnotes\1\0\1\nnotes\22~/Documents/notes\19core.concealer\18core.defaults\1\0\0\nsetup\nneorg\frequire\24:Neorg sync-parsers\0", "config", "neorg")
+try_loadstring("\27LJ\2\næ\1\0\0\a\0\14\0\0196\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\f\0005\3\3\0004\4\0\0=\4\4\0034\4\0\0=\4\5\0035\4\t\0005\5\a\0005\6\6\0=\6\b\5=\5\n\4=\4\v\3=\3\r\2B\0\2\1K\0\1\0\tload\1\0\0\16core.dirman\vconfig\1\0\0\15workspaces\1\0\1\22default_workspace\nnotes\1\0\1\nnotes\22~/Documents/notes\19core.concealer\18core.defaults\1\0\0\nsetup\nneorg\frequire\0", "config", "neorg")
 time([[Config for neorg]], false)
 -- Config for: trouble.nvim
 time([[Config for trouble.nvim]], true)
