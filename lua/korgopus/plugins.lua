@@ -111,6 +111,9 @@ return {
             temperature = 0,
             max_tokens = 4096,
           },
+          behaviour = {
+              auto_suggestions = false,
+          }
         },
       },
     },
